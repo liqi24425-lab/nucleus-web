@@ -9,7 +9,7 @@ import Privacy from './pages/Privacy';
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-[#0d0d0d] text-white font-sans selection:bg-cyan-500/30">
+      <div className="min-h-screen w-full bg-[#0d0d0d] text-white font-sans selection:bg-cyan-500/30">
         <Navbar />
         <main className="container mx-auto px-4 py-8">
           <Routes>
